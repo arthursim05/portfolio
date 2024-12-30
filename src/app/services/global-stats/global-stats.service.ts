@@ -7,7 +7,11 @@ export class GlobalStatsService {
 
     private _isSplashAnimationPlayed: boolean = false;
     
-    constructor() { }
+    constructor() {
+        if(location.pathname != "/") {
+            this._isSplashAnimationPlayed = true;
+        }
+    }
 
     public get isSplashAnimationPlayed(): boolean {
         return this._isSplashAnimationPlayed;
