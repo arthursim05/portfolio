@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GlobalStatsService } from './services/global-stats/global-stats.service';
-import { AppConfig } from '../enums/app-data.enum';
+import { AppConfig } from '../enums/app-data';
 import AOS from 'aos';
 
 
@@ -31,7 +31,8 @@ export class AppComponent implements OnInit {
 
     ngOnInit(): void {
         AOS.init({
-            duration: 500
+            duration: 500,
+            once: true,
         });
     }
 }

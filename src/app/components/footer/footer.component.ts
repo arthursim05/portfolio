@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppConfig } from '../../../enums/app-data.enum';
+import { AppConfig } from '../../../enums/app-data';
 
 @Component({
     selector: 'app-footer',
@@ -9,5 +9,8 @@ import { AppConfig } from '../../../enums/app-data.enum';
     styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
+    public readonly currentDate = new Date();
+    public readonly currentYear = this.currentDate.getFullYear();
+
     public appConfig = AppConfig;
 }

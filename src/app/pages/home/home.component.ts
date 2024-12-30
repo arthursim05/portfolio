@@ -1,6 +1,6 @@
 import { AfterViewInit, Component } from '@angular/core';
 import { SplashComponent } from '../splash/splash.component';
-import { AppConfig } from '../../../enums/app-data.enum';
+import { AppConfig } from '../../../enums/app-data';
 import { GlobalStatsService } from '../../services/global-stats/global-stats.service';
 import { AssetPaths } from '../../../enums/asset-paths.enum';
 import { SocialMediaLinksComponent } from '../../components/social-media-links/social-media-links.component';
