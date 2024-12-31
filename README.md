@@ -16,19 +16,13 @@
 # Sections 📚
 
 ✔️ Home\
-✔️ About me
+✔️ About me\
 ✔️ Projects \
 ✔️ Experience\
 ✔️ Education\
 
 To view a live example, **[click here](https://angular-master-portfolio.web.app/)**
 
-
-# Scroll to Top Button in Angular
-
-This project demonstrates a **Scroll to Top** button implemented in **Angular**. The button enhances user experience by allowing users to quickly navigate to the top of the page with a smooth scrolling animation.
-
----
 
 ## 🚀 Getting Started
 
@@ -41,8 +35,8 @@ Follow the official Angular documentation to [download and install Angular](http
 ### Clone and Use
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/dhruvilrathod/Angular-Master-Portfolio
+   cd Angular-Master-Portfolio
    ```
 
 2. Install dependencies:
