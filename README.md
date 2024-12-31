@@ -1,27 +1,129 @@
-# AngularMasterPortfolio
+<p align="center"> 
+    <img src="public/assets/images/ng-master.png" align="center" height="150"></img>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+<h1 align="center"> Angular Master Portfolio 🔥 </h1> 
+<h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio template developed with Angular and SCSS! <h3>
 
-## Development server
+<p align="center"> 
+    <a href="https://angular-master-portfolio.web.app/" target="_blank">
+    <img src="public/assets/images/ng-master-ss.png"></img>
+  </a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+:star: Star us on GitHub — it helps!
 
-## Code scaffolding
+# Sections 📚
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+✔️ Home\
+✔️ About me
+✔️ Projects \
+✔️ Experience\
+✔️ Education\
 
-## Build
+To view a live example, **[click here](https://angular-master-portfolio.web.app/)**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+# Scroll to Top Button in Angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This project demonstrates a **Scroll to Top** button implemented in **Angular**. The button enhances user experience by allowing users to quickly navigate to the top of the page with a smooth scrolling animation.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🚀 Getting Started
 
-## Further help
+### Prerequisites
+This portfolio is built with Angular. To use it, ensure you have Angular installed on your system.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+#### Install Angular
+Follow the official Angular documentation to [download and install Angular](https://angular.io/guide/setup-local).
+
+### Clone and Use
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   ng s -o
+   ```
+   This will open the application in your default web browser.
+
+---
+
+## 🛠 High-Level Customization
+
+### Data Customization
+- All portfolio data is sourced from a file named `app-data.enum.ts`. Use your editor’s search shortcut to locate this file.
+- Modify any section by updating the corresponding variable object in this file. To understand the details you can add to each section, refer to the predefined interfaces.
+
+### Icons
+- Icons used in the project are from [Simple Icons](https://simpleicons.org/). Visit their website to find and download icons along with their themes.
+
+### Splash Logo
+- The initial splash logo animation is not customizable but can be turned off from the `app-data.enum.ts` file.
+- To create a custom splash logo:
+  1. Use **Figma** or **Adobe Illustrator** to design an SVG.
+  2. Animate it using [SVG Artista](https://svgartista.net/).
+
+---
+
+## 📦 Build and Deployment
+
+### Building the Application
+To create a production build of the project:
+```bash
+ng build --prod
+```
+
+### Deploying to Firebase Hosting
+This project is hosted using **Firebase Hosting**. Follow these steps to deploy:
+
+1. **Create a Firebase Project**
+   - Visit [Firebase Console](https://console.firebase.google.com/) and create a new project.
+   - Add a web app to your Firebase project.
+
+2. **Modify Firebase Configurations**
+   - Use the existing Firebase configuration file in this project and update it with your project’s specific details.
+
+3. **Deploy the Project**
+   - Install the Firebase CLI:
+     ```bash
+     npm install -g firebase-tools
+     ```
+   - Log in to Firebase:
+     ```bash
+     firebase login
+     ```
+   - Initialize Firebase Hosting:
+     ```bash
+     firebase init
+     ```
+
+For more detailed instructions, refer to the [Firebase Hosting documentation](https://firebase.google.com/docs/hosting).
+
+---
+
+## 🛠 Technologies Used
+- **Angular**: [Learn more](https://angular.io/)
+- **SCSS**: [Learn more](https://sass-lang.com/)
+- **Tailwind CSS**: [Learn more](https://tailwindcss.com/)
+- **AOS (Animate on Scroll)**: [Learn more](https://michalsnik.github.io/aos/)
+
+### Illustrations
+- Illustrations are sourced from [UnDraw](https://undraw.co/).
+
+---
+
+Happy Coding! 🎉
+
+# References 👏🏻
+
+- Some Design Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio) and [Ashutosh Hathidara's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).

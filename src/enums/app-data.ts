@@ -564,7 +564,7 @@ export const AppConfig = {
     professionalTitle: "Development | Cyber Security | Freelancing",
     professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
     githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
-    portfolioRepository: "https://github.com/dhruvilrathod",        // Your portfolio repository link
+    portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
