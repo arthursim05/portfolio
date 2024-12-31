@@ -1,6 +1,6 @@
 <div class="p-4 w-full" data-aos="fade-up">
 
-    <div class="projects-card-container h-full border-2 border-gray-200 border-opacity-60 rounded-2xl overflow-hidden bg-white">
+    <div class="projects-card-container h-full border border-blue-400 border-opacity-60 rounded-2xl overflow-hidden bg-white">
 
         <div class="projects-card-image">
             <a 
@@ -17,7 +17,7 @@
         <div class="p-6">
 
             
-            <a href="" class="title-font text-xl font-bold text-gray-900 mb-3">
+            <a [href]="projectData().liveLink ?? projectData().githubLink" class="title-font text-xl font-bold text-gray-900 mb-3">
                 {{ projectData().title }}
             </a>
             
@@ -25,7 +25,7 @@
                 {{ projectData().techStack.join(" | ") }}
             </h2>
             
-            <p class="description-text leading-relaxed text-left mb-3 h-48" [title]="projectData().description">
+            <p class="description-text leading-relaxed text-left text-lg mb-3 h-48" [title]="projectData().description">
                 {{ projectData().description }}
             </p>
             

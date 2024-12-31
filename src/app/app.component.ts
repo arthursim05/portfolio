@@ -5,6 +5,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GlobalStatsService } from './services/global-stats/global-stats.service';
 import { AppConfig } from '../enums/app-data';
 import AOS from 'aos';
+import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
 
 
 
@@ -15,6 +16,7 @@ import AOS from 'aos';
         RouterOutlet,
         HeaderComponent,
         FooterComponent,
+        ScrollToTopComponent,
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss'
