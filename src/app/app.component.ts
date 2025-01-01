@@ -23,7 +23,6 @@ import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.c
 })
 export class AppComponent implements OnInit {
 
-    title = 'angular-master-portfolio';
     appConfig = AppConfig;
 
     constructor(

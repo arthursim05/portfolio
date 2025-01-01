@@ -74,7 +74,7 @@ Follow the official Angular documentation to [download and install Angular](http
 ### Building the Application
 To create a production build of the project:
 ```bash
-ng build --prod
+ng build
 ```
 
 ### Deploying to Firebase Hosting
