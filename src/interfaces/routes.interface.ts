@@ -8,4 +8,5 @@ export interface RouteData {
     isURLParams?: boolean,
     isURLQuery?: boolean,
     description?: string,
+    isExternalLink?: boolean,
 }
