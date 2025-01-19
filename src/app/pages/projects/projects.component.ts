@@ -3,6 +3,8 @@ import { Component } from '@angular/core';
 import { AssetPaths } from '../../../enums/asset-paths.enum';
 import { AppConfig } from '../../../enums/app-data';
 import { ProjectCardComponent } from '../../components/project-card/project-card.component';
+import { AppRoutes } from '../../../enums/routes-data.enum';
+import { GlobalStatsService } from '../../services/global-stats/global-stats.service';
 
 @Component({
     selector: 'app-projects',
@@ -17,4 +19,10 @@ import { ProjectCardComponent } from '../../components/project-card/project-card
 export class ProjectsComponent {
     public assetPaths = AssetPaths;
     public appConfig = AppConfig;
+
+    constructor(
+        private _globalStates: GlobalStatsService,
+    ) {
+        this._globalStates.setCanonicalUrl(AppRoutes.PROJECTS);
+    }
 }

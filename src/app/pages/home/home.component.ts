@@ -5,6 +5,7 @@ import { GlobalStatsService } from '../../services/global-stats/global-stats.ser
 import { AssetPaths } from '../../../enums/asset-paths.enum';
 import { SocialMediaLinksComponent } from '../../components/social-media-links/social-media-links.component';
 import { AboutMeComponent } from '../../components/about-me/about-me.component';
+import { AppRoutes } from '../../../enums/routes-data.enum';
 
 @Component({
     selector: 'app-home',
@@ -26,7 +27,8 @@ export class HomeComponent implements AfterViewInit {
     constructor(
         private _globalStatsService: GlobalStatsService,
     ) {
-        this.isAnimationPlayed = _globalStatsService.isSplashAnimationPlayed
+        this.isAnimationPlayed = _globalStatsService.isSplashAnimationPlayed;
+        this._globalStatsService.setCanonicalUrl(AppRoutes.HOME);
     }
 
     ngAfterViewInit(): void {
