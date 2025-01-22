@@ -72,12 +72,23 @@
             @for (l of linksData; track $index) {
                 @if (l.isVisible) {
                     <li>
-                        <a 
+                        @if (l.isExternalLink) {
+                            <a 
+                            [href]="l.routeURLName" 
+                            target="_blank"
+                            [routerLinkActive]="['font-bold']"
+                            [routerLinkActiveOptions]="{exact: true}" 
+                            [title]="l.routeTooltipValue ?? l.routeLinkText"
+                            >{{ l.routeLinkText }}</a>
+                        }
+                        @else {
+                            <a 
                             [routerLink]="l.routeURLName" 
                             [routerLinkActive]="['font-bold']"
                             [routerLinkActiveOptions]="{exact: true}" 
                             [title]="l.routeTooltipValue ?? l.routeLinkText"
                             >{{ l.routeLinkText }}</a>
+                        }
                     </li>
                 }
             }
