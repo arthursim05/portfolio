@@ -385,7 +385,7 @@ const FreelancingExperience: ExperienceSection = {
     experienceSectionTitle: "Freelancing",
     experiences: [
         {
-            orgLink: "https://kiwi-finance-qa.web.app/",
+            orgLink: "https://kiwifinance.com.au/",
             orgLogoPath: AssetPaths.WORK_KIWI_LOGO,
             orgName: "Kiwi Finance",
             positions: [
