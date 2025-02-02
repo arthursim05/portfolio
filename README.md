@@ -19,7 +19,7 @@
 ✔️ About me\
 ✔️ Projects \
 ✔️ Experience\
-✔️ Education\
+✔️ Education
 
 To view a live example, **[click here](https://angular-master-portfolio.web.app/)**
 
@@ -30,7 +30,7 @@ To view a live example, **[click here](https://angular-master-portfolio.web.app/
 This portfolio is built with Angular. To use it, ensure you have Angular installed on your system.
 
 #### Install Angular
-Follow the official Angular documentation to [download and install Angular](https://angular.io/guide/setup-local).
+Follow the official Angular documentation to [download and install Angular](https://angular.dev/tools/cli/setup-local).
 
 ### Clone and Use
 1. Clone the repository:
@@ -106,7 +106,7 @@ For more detailed instructions, refer to the [Firebase Hosting documentation](ht
 ---
 
 ## 🛠 Technologies Used
-- **Angular**: [Learn more](https://angular.io/)
+- **Angular**: [Learn more](https://angular.dev/)
 - **SCSS**: [Learn more](https://sass-lang.com/)
 - **Tailwind CSS**: [Learn more](https://tailwindcss.com/)
 - **AOS (Animate on Scroll)**: [Learn more](https://michalsnik.github.io/aos/)

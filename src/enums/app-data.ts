@@ -309,7 +309,7 @@ const FreelancingProjects: ProjectSection = {
         {
             title: "Kiwi Finance",
             coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
-            liveLink: "https://kiwi-finance-qa.web.app/",
+            liveLink: "https://kiwifinance.com.au/",
             description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
             year: 2025
