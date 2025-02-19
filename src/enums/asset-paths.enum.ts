@@ -26,4 +26,7 @@ export enum AssetPaths {
     EDUCATION_COVER = "assets/illustrations/EducationCover.svg",
     EDUCATION_GTU_LOGO = "assets/education-images/gtu-logo.png",
     EDUCATION_UNISA_LOGO = "assets/education-images/unisa-logo.png",
+    ACHIEVEMENT_COVER = "assets/illustrations/AchievementCover.svg",
+    ACHIEVEMENT_AOC_PIC = "assets/achievement-images/advent-of-code-finished.png",
+    ACHIEVEMENT_CPC_RSP_WIN_PIC = "assets/achievement-images/cpc-rsp-win.jpg",
 }

@@ -498,23 +498,32 @@ const InternshipExperience: ExperienceSection = {
 }
 
 // Community Involvement
-const CommunityInvolvement: ExperienceSection = {
-    experienceSectionTitle: "Community Involvement",
-    experiences: [
+const CommunityInvolvement: ProjectSection = {
+    sectionTitle: "Community Involvement",
+    entities: [
         {
-            orgLink: "https://adventofcode.com/",
-            orgLogoPath: AssetPaths.WORK_ADVENT_OF_CODE_LOGO,
-            orgName: "Advent of Code",
-            positions: [
-                {
-                    positionName: "Problem Solver",
-                    duration: "Dec 2024",
-                    workPoints: [
-                        "Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills. 📅🎯",
-                        "Leveraged Python libraries like heapq and networkx to solve complex challenges efficiently and effectively. 🧩",
-                    ]
-                }
-            ]
+            liveLink: "https://adventofcode.com/",
+            coverImagePath: AssetPaths.ACHIEVEMENT_AOC_PIC,
+            techStack: ["Python"],
+            title: "Advent of Code 2024",
+            description: "📅 Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills.🎯",
+            year: 2024,
+            githubLink: "https://github.com/dhruvilrathod/RSP/tree/master/advent_of_code",
+        },
+    ]
+}
+
+// Achievement
+const AchievementInvolvement: ProjectSection = {
+    sectionTitle: "Achievements",
+    entities: [
+        {
+            liveLink: "https://www.linkedin.com/posts/dhruvilrathod_competitiveprogramming-codingchallenges-teamwork-activity-7291965632684695553-CTqM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi05s0B8nMLyX_mC2aovn2P6w6tNr-b3AA",
+            coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
+            techStack: ["C++", "Python"],
+            title: "CPC X RSP 2025",
+            description: "🏆 Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
+            year: 2025,
         },
     ]
 }
@@ -585,13 +594,12 @@ export const AppConfig = {
     ],
 
     // Experience page
-    experiencePageTitle: "Work, Internships and Involvements",
-    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A Journey Through Internships, Challenges, Innovation and Community Invovements.",
+    experiencePageTitle: "My Works, Internships and Freelancing",
+    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
         InternshipExperience,
         FreelancingExperience,
-        CommunityInvolvement,
     ],
 
     // Education page
@@ -602,4 +610,12 @@ export const AppConfig = {
         BachelorsDegree,
     ],
 
+
+    // Achievements Page
+    achievementsPageTitle: "Achievements, Participation and Community Involvement",
+    achievementsPageDescription: "🚀 Milestones, Contributions & Impact: Driving Innovation, Engaging Communities, and Making a Difference 🌍",
+    achievementsSections: [
+        AchievementInvolvement,
+        CommunityInvolvement,
+    ],
 }
