@@ -310,7 +310,7 @@ const FreelancingProjects: ProjectSection = {
             title: "South Australia Tiling",
             coverImagePath: AssetPaths.PROJECT_SA_TILING,
             liveLink: "https://southaustraliatiling.com.au/",
-            description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
+            description: "🚀 Built with SSR and SSG to showcase a South Australian tiling and bathroom renovation business, enhancing their online presence and visibility.",
             techStack: ["Angular 19", "SSR/SSG", "NestJS", "Firebase"],
             year: 2025
         },
