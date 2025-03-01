@@ -307,6 +307,14 @@ const FreelancingProjects: ProjectSection = {
     sectionSubtitle: "🚀 Transforming Ideas into Digital Solutions: Tailored Websites, Custom CMS, and More!",
     entities: [
         {
+            title: "South Australia Tiling",
+            coverImagePath: AssetPaths.PROJECT_SA_TILING,
+            liveLink: "https://southaustraliatiling.com.au/",
+            description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
+            techStack: ["Angular 19", "SSR/SSG", "NestJS", "Firebase"],
+            year: 2025
+        },
+        {
             title: "Kiwi Finance",
             coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
             liveLink: "https://kiwifinance.com.au/",
@@ -384,6 +392,24 @@ const JobExperience: ExperienceSection = {
 const FreelancingExperience: ExperienceSection = {
     experienceSectionTitle: "Freelancing",
     experiences: [
+        {
+            orgLink: "https://southaustraliatiling.com.au/",
+            orgLogoPath: AssetPaths.WORK_SA_TILING_LOGO,
+            orgName: "South Australia Tiling",
+            positions: [
+                {
+                    positionName: "Professional Freelancer",
+                    duration: "2025",
+                    location: "Adelaide, WA",
+                    locationType: "Remote",
+                    jobType: "Contract",
+                    workPoints: [
+                        "Designed and developed a visually appealing website to highlight the high-quality work of a South Australian tiling and bathroom renovation business, improving their online presence.📊",
+                        "Utilized Server-Side Rendering (SSR) and Static Site Generation (SSG) to enhance search engine visibility and drive organic traffic to the website. 🚀",
+                    ]
+                }
+            ]
+        },
         {
             orgLink: "https://kiwifinance.com.au/",
             orgLogoPath: AssetPaths.WORK_KIWI_LOGO,
