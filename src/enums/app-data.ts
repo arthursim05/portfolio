@@ -553,7 +553,7 @@ const AchievementInvolvement: ProjectSection = {
         },
         {
             coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
-            liveLink: "unisa-chancellors-letter-of-commandation-2024",
+            liveLink: "unisa-chancellors-letter-of-commandation-2024.html",
             // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
             techStack: ["Cisco", "FortiGate", "ISO 270001"],
             title: "Chancellor's Commendation Letter (2024)",
