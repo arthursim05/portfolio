@@ -551,6 +551,15 @@ const AchievementInvolvement: ProjectSection = {
             description: "🏆 Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
             year: 2025,
         },
+        {
+            coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
+            liveLink: "unisa-chancellors-letter-of-commandation-2024",
+            // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
+            techStack: ["Cisco", "FortiGate", "ISO 270001"],
+            title: "Chancellor's Commendation Letter (2024)",
+            description: "🚀 Awarded for academic excellence with a cumulative program GPA in the TOP 5% of all students, and invited to join the Golden Key International Honour Society.",
+            year: 2024,
+        },
     ]
 }
 
