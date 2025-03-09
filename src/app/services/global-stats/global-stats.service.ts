@@ -1,4 +1,5 @@
-import { Injectable, Renderer2, RendererFactory2 } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Inject, Injectable, InjectionToken, PLATFORM_ID, Renderer2, RendererFactory2 } from '@angular/core';
 
 @Injectable({
     providedIn: 'root'
@@ -9,7 +10,8 @@ export class GlobalStatsService {
     private _renderer: Renderer2;
 
     constructor(
-        private _rendererFactory: RendererFactory2
+        private _rendererFactory: RendererFactory2,
+        @Inject(PLATFORM_ID) private platformId: InjectionToken<Object>,
     ) {
         this._renderer = _rendererFactory.createRenderer(null, null);
 
@@ -24,6 +26,10 @@ export class GlobalStatsService {
 
     public set isSplashAnimationPlayed(value: boolean) {
         this._isSplashAnimationPlayed = value;
+    }
+
+    public checkBrowser(): boolean {
+        return isPlatformBrowser(this.platformId);
     }
 
     setCanonicalUrl(url: string): void {

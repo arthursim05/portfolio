@@ -1,11 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 import { AssetPaths } from '../../../enums/asset-paths.enum';
 import { AppConfig } from '../../../enums/app-data';
 import { ProjectCardComponent } from '../../components/project-card/project-card.component';
 import { AppRoutes } from '../../../enums/routes-data.enum';
 import { GlobalStatsService } from '../../services/global-stats/global-stats.service';
-import AOS from 'aos';
 
 @Component({
     selector: 'app-projects',
@@ -17,7 +16,7 @@ import AOS from 'aos';
     templateUrl: './projects.component.html',
     styleUrl: './projects.component.scss'
 })
-export class ProjectsComponent implements OnInit {
+export class ProjectsComponent implements AfterViewInit {
     public assetPaths = AssetPaths;
     public appConfig = AppConfig;
 
@@ -27,7 +26,9 @@ export class ProjectsComponent implements OnInit {
         this._globalStates.setCanonicalUrl(AppRoutes.PROJECTS);
     }
 
-    ngOnInit(): void {
-        AOS.refreshHard();
+    ngAfterViewInit(): void {
+        setTimeout(() => {
+            this._globalStates.checkBrowser() && window.scrollTo(0,1)
+        }, 10);
     }
 }
