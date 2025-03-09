@@ -39,7 +39,7 @@
                         }
                         @else {
                             <a 
-                                [routerLink]="l.routeURLName" 
+                                [href]="l.routeURLName" 
                                 [routerLinkActive]="['font-bold']"
                                 [routerLinkActiveOptions]="{exact: true}" 
                                 [title]="l.routeTooltipValue ?? l.routeLinkText"
@@ -83,7 +83,7 @@
                         }
                         @else {
                             <a 
-                            [routerLink]="l.routeURLName" 
+                            [href]="l.routeURLName" 
                             [routerLinkActive]="['font-bold']"
                             [routerLinkActiveOptions]="{exact: true}" 
                             [title]="l.routeTooltipValue ?? l.routeLinkText"
