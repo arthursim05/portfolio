@@ -20,6 +20,6 @@ export const menuOpenCloseHeightAnimation = trigger('menuOpenCloseHeightAnimatio
     ]),
     transition(':leave', [
         style({ height: '*', overflow: 'hidden' }), // Initial state (full height)
-        animate('200ms ease-in', style({ height: '0' })) // Target to height 0
+        // animate('20ms ease-in', style({ height: '0' })) // Target to height 0
     ])
 ]);

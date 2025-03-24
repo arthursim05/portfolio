@@ -28,7 +28,7 @@
                     <li>
                         @if (l.isExternalLink) {
                             <a 
-                                [href]="l.routeURLName" 
+                                [routerLink]="l.routeURLName" 
                                 target="_blank"
                                 [routerLinkActive]="['font-bold']"
                                 [routerLinkActiveOptions]="{exact: true}" 
@@ -39,7 +39,7 @@
                         }
                         @else {
                             <a 
-                                [href]="l.routeURLName" 
+                                [routerLink]="l.routeURLName" 
                                 [routerLinkActive]="['font-bold']"
                                 [routerLinkActiveOptions]="{exact: true}" 
                                 [title]="l.routeTooltipValue ?? l.routeLinkText"
@@ -74,7 +74,7 @@
                     <li>
                         @if (l.isExternalLink) {
                             <a 
-                            [href]="l.routeURLName" 
+                            [routerLink]="l.routeURLName" 
                             target="_blank"
                             [routerLinkActive]="['font-bold']"
                             [routerLinkActiveOptions]="{exact: true}" 
@@ -83,7 +83,7 @@
                         }
                         @else {
                             <a 
-                            [href]="l.routeURLName" 
+                            [routerLink]="l.routeURLName" 
                             [routerLinkActive]="['font-bold']"
                             [routerLinkActiveOptions]="{exact: true}" 
                             [title]="l.routeTooltipValue ?? l.routeLinkText"

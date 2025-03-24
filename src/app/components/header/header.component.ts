@@ -12,6 +12,7 @@ import { AssetPaths } from '../../../enums/asset-paths.enum';
     selector: 'app-header',
     standalone: true,
     imports: [
+        RouterLink,
         RouterLinkActive,
         CommonModule,
     ],
