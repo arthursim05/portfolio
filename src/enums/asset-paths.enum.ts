@@ -32,4 +32,5 @@ export enum AssetPaths {
     ACHIEVEMENT_AOC_PIC = "assets/achievement-images/advent-of-code-finished.png",
     ACHIEVEMENT_CPC_RSP_WIN_PIC = "assets/achievement-images/cpc-rsp-win.jpg",
     ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC = "assets/achievement-images/unisa-chancellors-letter-of-commandation-2024.png",
+    SIMPLE_ICONS = "assets/simple-icons",
 }
