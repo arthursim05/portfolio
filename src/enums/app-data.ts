@@ -10,31 +10,31 @@ const SocialMediaLinks: ExternalSite[] = [
     {
         name: "Github",
         link: "https://github.com/dhruvilrathod",
-        simpleIconName: "github",
+        simpleIconName: "GitHub",
         backgroundColor: "#181717",
     },
     {
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/dhruvilrathod/",
-        simpleIconName: "linkedin", // this icon is not available in simple icon v14
+        simpleIconName: "LinkedIn", // this icon is not available in simple icon v14
         backgroundColor: "#0066c8", // manually checked
     },
     {
         name: "LeetCode",
         link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "leetcode",
+        simpleIconName: "LeetCode",
         backgroundColor: "#FFA116",
     },
     {
         name: "Gmail",
         link: "mailto:thedhruvilrathod@gmail.com",
-        simpleIconName: "gmail",
+        simpleIconName: "Gmail",
         backgroundColor: "#EA4335",
     },
     {
         name: "Instagram",
         link: "https://www.instagram.com/dhruvil.rthd/",
-        simpleIconName: "instagram",
+        simpleIconName: "Instagram",
         backgroundColor: "#FF0069",
     }
 ]
@@ -44,67 +44,67 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "Angular",
         link: "https://angular.dev/",
-        simpleIconName: "angular",
+        simpleIconName: "Angular",
         backgroundColor: "#ea2848",
     },
     {
         name: "HTML5",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        simpleIconName: "html5",
+        simpleIconName: "HTML5",
         backgroundColor: "#E34F26",
     },
     {
         name: "CSS3",
         link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        simpleIconName: "css3",
+        simpleIconName: "CSS3",
         backgroundColor: "#1572B6",
     },
     {
         name: "Sass",
         link: "https://sass-lang.com/",
-        simpleIconName: "sass",
+        simpleIconName: "Sass",
         backgroundColor: "#CC6699",
     },
     {
         name: "NodeJS",
         link: "https://nodejs.org/",
-        simpleIconName: "nodedotjs",
+        simpleIconName: "Node.js",
         backgroundColor: "#5FA04E",
     },
     {
         name: "JavaScript",
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        simpleIconName: "javascript",
+        simpleIconName: "JavaScript",
         backgroundColor: "#F7DF1E",
     },
     {
         name: "ExpressJS",
         link: "https://expressjs.com/",
-        simpleIconName: "express",
+        simpleIconName: "Express",
         backgroundColor: "#000000",
     },
     {
         name: "ThreeJS",
         link: "https://threejs.org/",
-        simpleIconName: "threedotjs",
+        simpleIconName: "Three.js",
         backgroundColor: "#000000",
     },
     {
         name: "Tailwind CSS",
         link: "https://tailwindcss.com/",
-        simpleIconName: "tailwindcss",
+        simpleIconName: "Tailwind CSS",
         backgroundColor: "#06B6D4",
     },
     {
         name: "Bootstrap",
         link: "https://getbootstrap.com/",
-        simpleIconName: "bootstrap",
+        simpleIconName: "Bootstrap",
         backgroundColor: "#7952B3",
     },
     {
         name: "PrimeNG",
         link: "https://primeng.org/",
-        simpleIconName: "primeng",
+        simpleIconName: "PrimeNG",
         backgroundColor: "#DD0031",
     },
 ];
@@ -127,49 +127,49 @@ const CloudSkills: ExternalSite[] = [
     {
         name: "GCP",
         link: "https://cloud.google.com/",
-        simpleIconName: "googlecloud",
+        simpleIconName: "Google Cloud",
         backgroundColor: "#4285F4",
     },
     {
         name: "AWS",
         link: "https://aws.amazon.com/",
-        simpleIconName: "amazonwebservices",
+        simpleIconName: "Amazon Web Services",
         backgroundColor: "#232F3E",
     },
     {
         name: "Firebase",
         link: "https://firebase.google.com/",
-        simpleIconName: "firebase",
+        simpleIconName: "Firebase",
         backgroundColor: "#FFCA28",
     },
     {
         name: "PostgreSQL",
         link: "https://www.postgresql.org/",
-        simpleIconName: "postgresql",
+        simpleIconName: "PostgreSQL",
         backgroundColor: "#336791",
     },
     {
         name: "MongoDB",
         link: "https://www.mongodb.com/",
-        simpleIconName: "mongodb",
+        simpleIconName: "MongoDB",
         backgroundColor: "#47A248",
     },
     {
         name: "Docker",
         link: "https://www.docker.com/",
-        simpleIconName: "docker",
+        simpleIconName: "Docker",
         backgroundColor: "#1488C6",
     },
     {
         name: "Render",
         link: "https://render.com/",
-        simpleIconName: "render",
+        simpleIconName: "Render",
         backgroundColor: "#000000",
     },
     {
         name: "Heroku",
         link: "https://www.heroku.com/",
-        simpleIconName: "heroku",
+        simpleIconName: "Heroku",
         backgroundColor: "#430098",
     },
 ];
@@ -191,25 +191,25 @@ const DesignSkills: ExternalSite[] = [
     {
         name: "Adobe XD",
         link: "https://adobexdplatform.com/",
-        simpleIconName: "adobexd",
+        simpleIconName: "Adobe XD",
         backgroundColor: "#FF2BC2",
     },
     {
         name: "Figma",
         link: "https://figma.com/",
-        simpleIconName: "figma",
+        simpleIconName: "Figma",
         backgroundColor: "#F24E1E",
     },
     {
         name: "Adobe Illustrator",
         link: "https://www.adobe.com/au/products/illustrator.html/",
-        simpleIconName: "adobeillustrator",
+        simpleIconName: "Adobe Illustrator",
         backgroundColor: "#FF7C00",
     },
     {
         name: "Adobe Photoshop",
         link: "https://www.adobe.com/products/photoshop.html/",
-        simpleIconName: "adobephotoshop",
+        simpleIconName: "Adobe Photoshop",
         backgroundColor: "#001e36",
     },
 ];
