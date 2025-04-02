@@ -28,7 +28,7 @@
                     <li>
                         @if (l.isExternalLink) {
                             <a 
-                                [routerLink]="l.routeURLName" 
+                                [href]="l.routeURLName" 
                                 target="_blank"
                                 [routerLinkActive]="['font-bold']"
                                 [routerLinkActiveOptions]="{exact: true}" 
@@ -74,7 +74,7 @@
                     <li>
                         @if (l.isExternalLink) {
                             <a 
-                            [routerLink]="l.routeURLName" 
+                            [href]="l.routeURLName" 
                             target="_blank"
                             [routerLinkActive]="['font-bold']"
                             [routerLinkActiveOptions]="{exact: true}" 
