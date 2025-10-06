@@ -9,34 +9,22 @@ import { AssetPaths } from "./asset-paths.enum";
 const SocialMediaLinks: ExternalSite[] = [
     {
         name: "Github",
-        link: "https://github.com/dhruvilrathod",
+        link: "https://github.com/arthursim05",
         simpleIconName: "GitHub",
         backgroundColor: "#181717",
     },
     {
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/dhruvilrathod/",
+        link: "https://www.linkedin.com/in/arthur-simbulan-4b2643384/",
         simpleIconName: "LinkedIn", // this icon is not available in simple icon v14
         backgroundColor: "#0066c8", // manually checked
     },
     {
-        name: "LeetCode",
-        link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "LeetCode",
-        backgroundColor: "#FFA116",
-    },
-    {
         name: "Gmail",
-        link: "mailto:thedhruvilrathod@gmail.com",
+        link: "mailto:arthursimbulan3@gmail.com",
         simpleIconName: "Gmail",
         backgroundColor: "#EA4335",
     },
-    {
-        name: "Instagram",
-        link: "https://www.instagram.com/dhruvil.rthd/",
-        simpleIconName: "Instagram",
-        backgroundColor: "#FF0069",
-    }
 ]
 
 // Fullstack skills
@@ -600,18 +588,18 @@ const MastersDegree: EducationSection = {
 
 export const AppConfig = {
     loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
-    logoName: "Dhruvil Rathod",         // Signature font logo name in header
-    name: "Dhruvil Rathod",             // your name
-    emailId: "thedhruvilrathod@gmail.com",  // your email id
+    logoName: "Arthur Simbulan",         // Signature font logo name in header
+    name: "Arthur Simbulan",             // your name
+    emailId: "arthursimbulan33@outlook.com",  // your email id
 
     // Google Form Contact Link
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
 
     // Home page
-    professionalTitle: "Development | Cyber Security | Freelancing",
+    professionalTitle: "Full Stack Development | Javascript | Angular | NodeJS | Cloud",
     professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
-    githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
-    portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
+    githubProfile: "https://github.com/arthursim05",              // Your github profile link
+    portfolioRepository: "https://github.com/arthursim05/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
