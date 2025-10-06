@@ -10,7 +10,7 @@ If you have never opened a PR and need direction, read more below.
 
 # Contributor's Guide
 
-Feedback, bug reports, and pull requests are welcome. Feel free to ask for [help](https://github.com/dhruvilrathod/Angular-Master-Portfolio/issues).
+Feedback, bug reports, and pull requests are welcome. Feel free to ask for [help](https://github.com/arthursim05/Angular-Master-Portfolio/issues).
 
 Working on your first Pull Request? You can learn how from this _free_ series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 
@@ -25,7 +25,7 @@ This guide has been modified from [freeCodeCamp's Contributors Guide](https://gi
 
 ### Forking Angular Master Portfolio
 
-1. Go to the top-level page of this [repository](https://github.com/dhruvilrathod/Angular-Master-Portfolio)
+1. Go to the top-level page of this [repository](https://github.com/arthursim05/Angular-Master-Portfolio)
 2. Click the "Fork" button in the upper right-hand corner of the interface ([More Details Here](https://help.github.com/articles/fork-a-repo))
 3. After the repository (repo) has been forked, you will be taken to your copy of the Angular Master Portfolio repo at <https://github.com/yourUsername/Angular-Master-Portfolio>
 
@@ -48,7 +48,7 @@ This will download the entire `Angular Master Portfolio` repo to your project's 
 2. Add a remote to the original `Angular Master Portfolio` repo:
 
 ```shell
-git remote add upstream https://github.com/dhruvilrathod/Angular-Master-Portfolio.git
+git remote add upstream https://github.com/arthursim05/Angular-Master-Portfolio.git
 ```
 
 Congratulations, you now have a local copy of the `Angular Master Portfolio` repo!
@@ -107,7 +107,7 @@ A pull request (PR) is a method of submitting your new site to the `Angular Mast
 
 #### Need Help?
 
-Feel free to ask for [help](https://github.com/dhruvilrathod/Angular-Master-Portfolio/issues), we are here to help.
+Feel free to ask for [help](https://github.com/arthursim05/Angular-Master-Portfolio/issues), we are here to help.
 
 #### Important: ALWAYS EDIT ON A BRANCH
 
