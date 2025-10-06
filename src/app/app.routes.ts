@@ -28,11 +28,11 @@ export const routes: Routes = [
         component: EducationComponent,
         title: `Education | Arthur's Portfolio`,
     },
-    {
-        path: AppRoutes.ACHIEVEMENTS,
-        component: AchievementsComponent,
-        title: `Achievements | Arthur's Portfolio`,
-    },
+    // {
+    //     path: AppRoutes.ACHIEVEMENTS,
+    //     component: AchievementsComponent,
+    //     title: `Achievements | Arthur's Portfolio`,
+    // },
     {
         path: "**",
         redirectTo: AppRoutes.ERROR,

@@ -7,8 +7,6 @@ import { AppConfig } from '../enums/app-data';
 import AOS from 'aos';
 import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
 
-
-
 @Component({
     selector: 'app-root',
     standalone: true,

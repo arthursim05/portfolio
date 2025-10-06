@@ -239,8 +239,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Web-Based 3D IFC File Viewer",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
+            githubLink: "https://github.com/arthursim05/three-ifc-angular.git",
             description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
             techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
             year: 2022
@@ -248,7 +247,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Customizable Multi-Select Dropdown",
             coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
-            githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
+            githubLink: "https://github.com/arthursim05/custom-dropdown.git",
             description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
             techStack: ["Angular", "TypeScript", "SCSS"],
             year: 2023,
@@ -257,7 +256,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Learning Management System",
             coverImagePath: AssetPaths.PROJECT_LMS_APP,
-            githubLink: "https://github.com/dhruvilrathod/lms-asite",
+            githubLink: "https://github.com/arthursim05/lms-asite",
             description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
             techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
             year: 2023
@@ -265,7 +264,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Angular + NestJS Boilerplate",
             coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
-            githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
+            githubLink: "https://github.com/arthursim05/sample-angular-nest.git",
             description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
             techStack: ["Angular", "NestJS", "NgINX", "Docker"],
             year: 2023
@@ -273,7 +272,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Hospital Management System Dashboard",
             coverImagePath: AssetPaths.PROJECT_HMS_APP,
-            githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
+            githubLink: "https://github.com/arthursim05/hms-demo.git",
             description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
             techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
             year: 2024
@@ -281,7 +280,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Cross-Platform Music Player",
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/dhruvilrathod/music_player",
+            githubLink: "https://github.com/arthursim05/music-player.git",
             description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
             techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
             year: 2023
@@ -335,16 +334,16 @@ const JobExperience: ExperienceSection = {
     experienceSectionTitle: "Work Experience",
     experiences: [
         {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgLink: "https://www.tyfoom.com/",
+            orgLogoPath: AssetPaths.WORK_TYFOOM_LOGO,
+            orgName: "Tyfoom",
             positions: [
                 {
-                    positionName: "Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
-                    locationType: "On-Site",
-                    jobType: "Part-time",
+                    positionName: "Senior Software Engineer",
+                    duration: "May 2023 - Present",
+                    location: "Pampanga, Philippines",
+                    locationType: "Remote",
+                    jobType: "Contract",
                     workPoints: [
                         "Ensured secure management of sensitive data with top-notch IT support. 🔒",
                         "Streamlined property searches by liaising with government agencies. 🏡",
@@ -355,16 +354,54 @@ const JobExperience: ExperienceSection = {
             ]
         },
         {
-            orgLink: "https://www.asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "https://www.eclaro.com/",
+            orgLogoPath: AssetPaths.WORK_ECLARO_LOGO,
+            orgName: "Eclaro",
             positions: [
                 {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
+                    positionName: "Software Engineer",
+                    duration: "Nov 2022 - Apr 2023",
+                    location: "Pampanga, Philippines",
                     locationType: "Hybrid",
                     jobType: "Full-time",
+                    workPoints: [
+                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
+                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
+                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "https://www.cressoftconsultancy.com/",
+            orgLogoPath: AssetPaths.WORK_CRESSOFT_LOGO,
+            orgName: "Cressoft Consultancy Limited",
+            positions: [
+                {
+                    positionName: "Full Stack Engineer",
+                    duration: "Mar 2020 - Oct 2022",
+                    location: "Pampanga, Philippines",
+                    locationType: "On-Site",
+                    jobType: "Contract",
+                    workPoints: [
+                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
+                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
+                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "https://www.yondu.com/",
+            orgLogoPath: AssetPaths.WORK_YONDU_LOGO,
+            orgName: "Yondu, Inc",
+            positions: [
+                {
+                    positionName: "Full Stack Developer",
+                    duration: "Jul 2018 - Feb 2020",
+                    location: "Pampanga, Philippines",
+                    locationType: "On-Site",
+                    jobType: "Contract",
                     workPoints: [
                         "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
                         "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
@@ -434,25 +471,6 @@ const FreelancingExperience: ExperienceSection = {
                 }
             ]
         },
-        {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2023",
-                    location: "Adelaide, SA",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Crafted a professional logo, business cards, and responsive website using Illustrator. 🎨💼",
-                        "Set up a custom domain email and Office 365 with SharePoint for seamless operations. 📧🔗",
-                        "Developed and hosted an SEO-friendly website with a contact form to boost online presence. 🌐📈",
-                    ]
-                }
-            ]
-        },
     ]
 }
 
@@ -516,7 +534,7 @@ const CommunityInvolvement: ProjectSection = {
     sectionTitle: "Community Involvement",
     entities: [
         {
-            liveLink: "https://adventofcode.com/",
+            // liveLink: "https://adventofcode.com/",
             coverImagePath: AssetPaths.ACHIEVEMENT_AOC_PIC,
             techStack: ["Python"],
             title: "Advent of Code 2024",
@@ -532,7 +550,7 @@ const AchievementInvolvement: ProjectSection = {
     sectionTitle: "Achievements",
     entities: [
         {
-            liveLink: "https://www.linkedin.com/posts/dhruvilrathod_competitiveprogramming-codingchallenges-teamwork-activity-7291965632684695553-CTqM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi05s0B8nMLyX_mC2aovn2P6w6tNr-b3AA",
+            // liveLink: "https://www.linkedin.com/posts/dhruvilrathod_competitiveprogramming-codingchallenges-teamwork-activity-7291965632684695553-CTqM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi05s0B8nMLyX_mC2aovn2P6w6tNr-b3AA",
             coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
             techStack: ["C++", "Python"],
             title: "CPC X RSP 2025",
@@ -541,7 +559,7 @@ const AchievementInvolvement: ProjectSection = {
         },
         {
             coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
-            liveLink: "unisa-chancellors-letter-of-commandation-2024.html",
+            // liveLink: "unisa-chancellors-letter-of-commandation-2024.html",
             // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
             techStack: ["Cisco", "FortiGate", "ISO 270001"],
             title: "Chancellor's Commendation Letter (2024)",
@@ -553,14 +571,14 @@ const AchievementInvolvement: ProjectSection = {
 
 // Degrees
 const BachelorsDegree: EducationSection = {
-    degreeName: "Bachelor of Engineering",
-    majorName: "Computer Engineering",
-    duration: "Jul 2019 - May 2023",
-    universityName: "Gujarat Technological University (GTU)",
-    campusName: "VGEC",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
-    gpa: "6.9 / 7.0",
-    websiteLink: "https://www.gtu.ac.in/",
+    degreeName: "Bachelor of Science",
+    majorName: "Computer Science and Engineering",
+    duration: "Sep 2014 - May 2017",
+    universityName: "FEU Institute of Technology",
+    // campusName: "VGEC",
+    logoImagePath: AssetPaths.EDUCATION_FEU_LOGO,
+    // gpa: "6.9 / 7.0",
+    websiteLink: "https://www.feutech.edu.ph/",
     studyPoints: [
         "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
         "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
@@ -584,10 +602,8 @@ const MastersDegree: EducationSection = {
     ]
 }
 
-
-
 export const AppConfig = {
-    loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
+    loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
     logoName: "Arthur Simbulan",         // Signature font logo name in header
     name: "Arthur Simbulan",             // your name
     emailId: "arthursimbulan33@outlook.com",  // your email id
@@ -599,7 +615,7 @@ export const AppConfig = {
     professionalTitle: "Full Stack Development | Javascript | Angular | NodeJS | Cloud",
     professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
     githubProfile: "https://github.com/arthursim05",              // Your github profile link
-    portfolioRepository: "https://github.com/arthursim05/Angular-Master-Portfolio",        // Your portfolio repository link
+    portfolioRepository: "https://github.com/arthursim05/portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
@@ -621,15 +637,13 @@ export const AppConfig = {
     experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
-        InternshipExperience,
-        FreelancingExperience,
     ],
 
     // Education page
     educationPageTitle: "Degrees and Qualifications",
     educationPageDescription: "🎓 A Journey of Continuous Learning: Building Skills, Solving Problems, and Shaping the Future 🌟",
     educationSections: [
-        MastersDegree,
+        // MastersDegree,
         BachelorsDegree,
     ],
 
